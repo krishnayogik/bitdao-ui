@@ -1,68 +1,59 @@
-.bitDao-features-container-with-header {
+.bitDao-features-container {
   display: flex;
-  flex-direction: column;
-  background: #20846c;
+  flex-direction: row;
+  padding: 15px 10%;
+  flex-wrap: wrap;
   color: #fdfdfd;
-  justify-content: center;
-  align-items: center;
-  h2 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #fdfdfd;
-  }
-
-  .bitDao-features-container {
+  background: #20846c;
+  .bitDao-market {
+    flex: 2;
     display: flex;
-    flex-direction: row;
-    padding: 15px 10%;
-    flex-wrap: wrap;
-    color: #fdfdfd;
-    .bitDao-market {
-      flex: 2;
-      display: flex;
-      justify-content: left;
-      align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    h2 {
       font-size: 2rem;
-      p {
-        margin: 0;
-      }
+      font-weight: 900;
+      line-height: 1.5;
+      color: #fdfdfd;
     }
-    .bitDao-features-images {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      padding: 30px 0;
-      div {
-        display: flex;
-        flex-basis: calc(50% - 40px);
-        justify-content: flex-end;
-        align-items: flex-end;
-        flex-direction: column;
-        background: #20846c;
-        margin-bottom: 10px;
-        padding: 20px 0;
-      }
-      img {
-        min-width: 200px;
-        width: 50%;
-      }
+    p {
+      margin: 0;
+      font-size: 1.3rem;
+      text-align: justify;
     }
-    .bitDao-features {
-      flex: 3;
+  }
+  .bitDao-features-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    div {
       display: flex;
+      flex-basis: calc(50% - 40px);
+      justify-content: flex-end;
+      align-items: flex-end;
       flex-direction: column;
-      align-items: center;
-      flex-wrap: wrap;
-      padding-right: 10%;
-     
-      p {
-        width: fit-content;
-        text-align: justify;
-        line-height: 1.7;
-      }
+      background: #20846c;
+      padding: 10px 0;
+    }
+    img {
+      min-width: 200px;
+      width: 50%;
+    }
+  }
+  .bitDao-features {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    p {
+      width: fit-content;
+      text-align: justify;
+      line-height: 1.7;
     }
   }
 }
@@ -72,6 +63,9 @@
     flex-direction: column;
     .bitDao-features {
       padding: 0;
+    }
+    .bitDao-features-images {
+      padding: 30px 0;
     }
   }
 }
