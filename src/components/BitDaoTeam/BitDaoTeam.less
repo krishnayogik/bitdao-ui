@@ -1,0 +1,69 @@
+h1 {
+  text-align: center;
+  display: block;
+  padding: 5px;
+  margin: 30px auto 50px;
+  width: 300px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.2rem;
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.box {
+  width: 300px;
+  box-shadow: 0 0 5px 0 #0000001f;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-top: 80px;
+}
+
+.user-icon {
+  overflow: hidden;
+  height: 130px;
+  width: 130px;
+  border-radius: 70px;
+  margin: -80px 0 0 0;
+}
+
+.user-icon img {
+  width: 100%;
+}
+
+.user-name {
+  margin: 15px 0 0;
+  font-weight: 300;
+  color: #656565;
+  font-size: 30px;
+}
+
+.designation {
+  color: #e65454;
+  font-weight: 600;
+}
+
+.user-info {
+  margin: 10px 0 0;
+  background-color: #ececec;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .team-container {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,39 @@
+.bitDao-info-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 10%;
+    flex-wrap: wrap;
+    .bitDao-info-image {
+        flex: 2;
+        img {
+            width: 100%;
+        }
+    }
+    .bitDao-info {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-left: 10%;
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            line-height: 1.5;
+        }
+        p {
+            width: fit-content;
+            text-align: justify;
+            line-height: 1.7;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .bitDao-info-container {
+        flex-direction: column;
+        .bitDao-info {
+            padding: 0;
+        }
+    }
+}

@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-yarn install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
@@ -29,6 +29,20 @@ yarn test:e2e
 ```
 yarn lint
 ```
+
+### For deploying the project in 
+### shared hosting service commands to be followed : 
+
+```
+yarn
+```
+
+```
+yarn build
+```
+
+Now copy the dist folder in the project root to a different place and archive that copied dist folder.
+Upload the archived dist folder to shared hosting file manager and unarchive it.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
