@@ -54,7 +54,7 @@ export default {
             name: 'SHOUNSALMA',
             position: 'Design Lead',
             image: 'shounsalma.jpg',
-            linkedInUrl: ''
+            linkedInUrl: 'https://www.linkedin.com/in/shounsalma-vijayan-b8a454209/'
         },
         {
             id: '9',
