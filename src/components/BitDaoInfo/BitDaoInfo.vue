@@ -19,9 +19,10 @@
         BitDAO(BDAO) proposes a decentralised bitcoin pegged token that will
         track bitcoin closely.
         <br />
-        BDAO token acts a governance and Defi token with APY of 15-50%. Any EOS
-        token can act as collateral which actes ensures table within the pegged
-        token.
+        <br />
+        BDAO token acts a governance and Defi token with APY of 15-50%. Any
+        multichain (BSC, Polkadot and Solana) token can act as collateral which
+        acts ensures stable within the pegged token.
       </p>
     </div>
   </div>

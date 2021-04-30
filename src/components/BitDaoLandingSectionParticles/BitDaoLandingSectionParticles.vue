@@ -20,7 +20,7 @@
     </vue-particles>
     <div class="bitDao-landing-info-container">
       <h1 class="animated slow zoomIn">
-        DeFi + Decentralised <br />pegged tokens on multi chain
+        DeFi + Decentralised <br />pegged tokens on <span>MultiChain</span>
       </h1>
       <div>
         <a
