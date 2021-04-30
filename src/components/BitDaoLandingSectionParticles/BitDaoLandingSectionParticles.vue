@@ -22,6 +22,26 @@
       <h1 class="animated slow zoomIn">
         DeFi + Decentralised <br />pegged tokens on multi chain
       </h1>
+      <div>
+        <a
+          class="fa fa-telegram"
+          href="https://t.me/bitdao_chat"
+          target="_blank"
+        />
+        <a
+          class="fa fa-telegram"
+          href="https://t.me/bitdao_chat"
+          target="_blank"
+        />
+        <a
+          class="fa fa-twitter"
+          href="https://twitter.com/BitdaoNetwork?s=09"
+          target="_blank"
+        />
+      </div>
+      <a href="./BITDAOWhitepaper.pdf" target="_blank" class="button instagram">
+        <span class="gradient"></span>View Whitepaper
+      </a>
     </div>
   </div>
 </template>

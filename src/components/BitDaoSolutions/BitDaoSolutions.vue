@@ -13,8 +13,8 @@
         <br />
         <br />
         <strong>
-          EOS solves these problems. It is fast, cheap and decentralised (800+
-          block producing validators)
+          BITDAO solves these problems. It is fast, cheap and decentralised
+          (800+ block producing validators)
         </strong>
       </p>
     </div>
