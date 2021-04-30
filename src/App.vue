@@ -59,6 +59,7 @@ body {
   background: -webkit-linear-gradient(#145d52, #20846c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.6));
 }
 
 </style>
