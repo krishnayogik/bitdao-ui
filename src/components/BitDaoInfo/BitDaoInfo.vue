@@ -20,7 +20,7 @@
         track bitcoin closely.
         <br />
         BDAO token acts a governance and Defi token with APY of 15-50%. Any EOS
-        token can act as ollateral which actes ensures table within the pegged
+        token can act as collateral which actes ensures table within the pegged
         token.
       </p>
     </div>

@@ -12,10 +12,8 @@
         DeFi Users love Ethereum but transaction charges are prohibitive
         <br />
         <br />
-        <strong>
-          BITDAO solves these problems. It is fast, cheap and decentralised
-          (800+ block producing validators)
-        </strong>
+        BITDAO solves these problems. It is fast, cheap and decentralised (800+
+        block producing validators)
       </p>
     </div>
   </div>

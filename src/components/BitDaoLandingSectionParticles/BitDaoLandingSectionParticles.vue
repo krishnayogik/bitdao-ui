@@ -30,7 +30,7 @@
         />
         <a
           class="fa fa-telegram"
-          href="https://t.me/bitdao_chat"
+          href="https://t.me/bitdao_ann"
           target="_blank"
         />
         <a
